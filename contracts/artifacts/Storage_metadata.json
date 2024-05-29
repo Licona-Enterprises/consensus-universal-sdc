@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {
+				"retrieve()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'number'"
+					}
+				},
+				"store(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"num": "value to store"
+					}
+				}
+			},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/avs1.sol": "Storage"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/cryptography/ECDSA.sol": {
+			"keccak256": "0xeed0a08b0b091f528356cbc7245891a4c748682d4f6a18055e8e6ca77d12a6cf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ba80ba06c8e6be852847e4c5f4492cef801feb6558ae09ed705ff2e04ea8b13c",
+				"dweb:/ipfs/QmXRJDv3xHLVQCVXg1ZvR35QS9sij5y9NDWYzMfUfAdTHF"
+			]
+		},
+		"contracts/avs1.sol": {
+			"keccak256": "0x32b2ad35885c7cc4d37c24c1efbca51afc377cbfbc06710b91eb5d9e433faa0c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://190ae3fcc9389ae29614d4d3ad639f4b3c64ffcee1ac396b077616ae4a6702b5",
+				"dweb:/ipfs/QmUFE7Ut6sKy8427kbaare4f9u6Noj3T2pxmYhjwBTR9u4"
+			]
+		},
+		"https://github.com/Layr-Labs/eigenlayer-contracts/blob/dev/src/contracts/libraries/BytesLib.sol": {
+			"keccak256": "0xe72a06b842595ca0c897eafe6eca3e7a7cd2429c5756c2fe74e1d55cab7f4453",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://00b425d459d2501a995f925eaf0f1f819b4cdb9c6919d75fc1ff0f19a6462c45",
+				"dweb:/ipfs/QmU6j6Eoe98Yxx3BonChjqGjP7DEHKv9H9Y8JDpf2m6TbY"
+			]
+		}
+	},
+	"version": 1
+}

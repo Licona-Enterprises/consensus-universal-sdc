@@ -1,4 +1,3 @@
-```markdown
 # On-Chain Bond Issuance using ISmartDerivativeContract Interface
 
 Issuing a bond on-chain using the ISmartDerivativeContract interface can leverage the smart contract's functionalities to automate and secure various aspects of the bond issuance and management process. Here are some potential use cases:

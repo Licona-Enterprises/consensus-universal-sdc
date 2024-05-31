@@ -1,3 +1,15 @@
+# On-Chain Bond Issuance using ISmartDerivativeContract Interface
+
+Issuing a bond on-chain using the ISmartDerivativeContract interface can leverage the smart contract's functionalities to automate and secure various aspects of the bond issuance and management process. Here are some potential use cases:
+
+## 1. Automated Bond Issuance and Confirmation
+
+### Incepting the Bond
+The issuer can use the `inceptTrade` function to create a new bond issuance agreement with an investor, detailing the bond's terms, position, payment amount, and initial settlement data.
+```solidity
+inceptTrade(investorAddress, bondTerms, bondPosition, paymentAmount, initialSettlementData);
+
+
 HARDHAT WORKSPACE
 
 Hardhat workspace is present when:
